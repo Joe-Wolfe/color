@@ -1,0 +1,37 @@
+.ColorForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 95vw;
+    height: 90vh;
+}
+
+
+.ColorForm h1,
+.ColorForm label {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.ColorForm label {
+    font-size: 2em;
+    line-height: 1.1;
+}
+
+.ColorForm input[type="color"] {
+    width: 6em;
+    height: 3em;
+    border: 2px solid black;
+}
+
+.ColorForm button {
+    margin-left: .5em;
+    transform: translateY(-5px);
+    padding: .3em 1em;
+    font-size: 1.5em;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
